@@ -23,4 +23,44 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.div {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 20px;
+  color: white;
+  padding: 15px;
+  margin: 30px;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+p {
+  align-self: left;
+  max-width: 20ch;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 550;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  background-color: white;
+  padding: 10px 40px;
+  color: black;
+  border-radius: 15px;
+  width: fit-content;
+  font-size: 20px;
+  align-self: center;
+  margin-top: 20px;
 }
