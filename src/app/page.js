@@ -20,7 +20,7 @@ export default function Home() {
         ></IoCloseOutline>
       </div>
       <p>We use cookies to improve your user experience.</p>
-      <button>I like Cookies</button>
+      <Likebutton label="I like Cookies"></Likebutton>
     </div>
   );
 }
