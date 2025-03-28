@@ -10,7 +10,10 @@ const Cookie = () => {
     !cookiesAccepted && (
       <div className="div">
         <CookieHeader></CookieHeader>
-        <CookieFooter></CookieFooter>
+        <CookieFooter
+          cookiesAccepted={cookiesAccepted}
+          setCookiesAccepted={setCookiesAccepted}
+        ></CookieFooter>
       </div>
     )
   );

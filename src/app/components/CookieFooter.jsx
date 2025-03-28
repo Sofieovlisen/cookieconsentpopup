@@ -1,5 +1,5 @@
 "use client";
-const CookieFooter = () => {
+const CookieFooter = ({ cookiesAccepted, setCookiesAccepted }) => {
   return (
     <div>
       <p>We use cookies to improve your user experience.</p>
